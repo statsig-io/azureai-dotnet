@@ -5,6 +5,16 @@
     <RootNamespace>azureai_statsig</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>StatsigAzureAI</PackageId>
+    <Authors>Statsig Inc.</Authors>
+    <Owners>Statsig Inc.,</Owners>
+    <RepositoryUrl>https://github.com/statsig-io/azureai-dotnet.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/statsig-io/azureai-dotnet</PackageProjectUrl>
+    <PackOnBuild>true</PackOnBuild>
+    <Version>1.0.0</Version>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageTags>feature flags; feature gates; a/b testing; experimentation</PackageTags>
+    <Title>Statsig And Azure AI</Title>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="src/" />
@@ -12,7 +22,6 @@
   <ItemGroup>
     <PackageReference Include="Azure.AI.Inference" Version="1.0.0-beta.2" />
     <PackageReference Include="Statsig" Version="1.28.0" />
-    
   </ItemGroup>
 
 </Project>
