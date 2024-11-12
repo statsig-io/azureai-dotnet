@@ -28,7 +28,7 @@ var client = Server.GetModelClientFromEndpoint(
 Optionally, use a Statsig Dynamic Config to provide default configurations
 
 ```c#
-var client = Server.GetModelClient("gpt-4o-mini", <DEPLOYMENT_ENDPOINT_URL>, <DEPLOYMENT_KEY>);
+var client = Server.GetModelClient("azureai_model", <DEPLOYMENT_ENDPOINT_URL>, <DEPLOYMENT_KEY>);
 ```
 
 4. Call the API
